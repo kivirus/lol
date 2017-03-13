@@ -124,7 +124,7 @@ public class scoreWorld extends World
         addObject(new Number(i) ,(getWidth()/2+150), getHeight()/2);
      }
      else {
-         addObject(new Number(18) ,(getWidth()/2), getHeight()/2);  
+         addObject(new Perfect() ,(getWidth()/2), getHeight()/2);  
         } 
         
     
