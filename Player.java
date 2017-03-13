@@ -43,6 +43,7 @@ public class Player extends Actor
      public void play1(){
      Greenfoot.playSound("explosion.wav");   
     }
+    
     public void checkKeyPress(){
         if(Greenfoot.isKeyDown("w")){
             setLocation(getX(), getY() - 4);
