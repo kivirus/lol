@@ -23,6 +23,7 @@ public class MyWorld extends World
         super(1600, 800, 1);
        addObject(title, (getWidth()/2), getHeight()-700);
        addObject(start, ((getWidth()/2)), getHeight()-500);
+      addObject(new Howto(), (getWidth()/2), getHeight()-300);
        int time=0;
        
     }
