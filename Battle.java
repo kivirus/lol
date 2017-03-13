@@ -28,12 +28,12 @@ public class Battle extends World
         }
         
      public void Timer(){
-            
+             
               showText("Time  "+(time/60),540,80);
               time++;
-              if(time == 10){
-              Greenfoot.setWorld(new MyWorld());   
-              }
+            if(time/60==180){
+                 Greenfoot.setWorld(new scoreWorld()); 
+            }
      }
  
 }
