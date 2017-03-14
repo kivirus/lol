@@ -23,15 +23,15 @@ public class Player extends Actor
    
         if(isTouching(Turret1.class)){
             play1();
-            
+            Greenfoot.setWorld(new scoreWorld());
         }
          if(isTouching(Turret2.class)){
              play1();
-        
+        Greenfoot.setWorld(new scoreWorld());
         }
          if(isTouching(Turret3.class)){
              play1();
-         
+         Greenfoot.setWorld(new scoreWorld());
         }
          
     }  
