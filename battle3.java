@@ -21,9 +21,9 @@ public class battle3 extends Battle
     {    
         // uper(1600, 800, 1);
            addObject(new Reset3() ,1550, 50); 
-        addObject(turret1, (getWidth()/2)+700, getHeight()-700);
-        addObject(turret2, (getWidth()/2)+600, getHeight()-400);  
-        addObject(turret3, (getWidth()/2)+500, getHeight()-100); 
+        addObject(turret1, (getWidth()/2)+750, getHeight()-700);
+        addObject(turret2, (getWidth()/2)+650, getHeight()-400);  
+        addObject(turret3, (getWidth()/2)+550, getHeight()-100); 
         addObject(player, (getWidth()/2)-600, getHeight()-400); 
           
     }

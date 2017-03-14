@@ -20,7 +20,7 @@ public class battle1 extends Battle
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
      
-       addObject(turret1, (getWidth()/2)+700, getHeight()-700);
+       addObject(turret1, (getWidth()/2)+750, getHeight()-700);
        addObject(player, (getWidth()/2)-600, getHeight()-400);
        addObject(new Reset() ,1550, 50);  
        
