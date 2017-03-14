@@ -22,7 +22,7 @@ public class battle1 extends Battle
      
        addObject(turret1, (getWidth()/2)+700, getHeight()-700);
        addObject(player, (getWidth()/2)-600, getHeight()-400);
-       addObject(new Reset() ,(getWidth()/2-740), getHeight()+100);  
+       addObject(new Reset() ,1550, 50);  
        
        
     }

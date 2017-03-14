@@ -20,7 +20,7 @@ public class battle3 extends Battle
     public battle3()
     {    
         // uper(1600, 800, 1);
-        addObject(new Reset3() ,(getWidth()/2-740), getHeight()+100); 
+           addObject(new Reset3() ,1550, 50); 
         addObject(turret1, (getWidth()/2)+700, getHeight()-700);
         addObject(turret2, (getWidth()/2)+600, getHeight()-400);  
         addObject(turret3, (getWidth()/2)+500, getHeight()-100); 
