@@ -18,7 +18,7 @@ public class Battle extends World
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
          super(1600, 800, 1);
         
-        addObject(new Return() ,(getWidth()/2-580), getHeight()+100);  
+        addObject(new Return() ,50, 50);  
         time=0;
     }
      public void act(){
